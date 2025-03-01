@@ -1,6 +1,8 @@
-#
+# Card Tracer
+A Collectable Card value tracking web app.
 
-## Install Prerequisites
+
+## Windows Install Prerequisites
 
 1. **Node.js & npm** - Download & install from [nodejs.org](https://nodejs.org/) (LTS version). Verify with:
    ```sh
