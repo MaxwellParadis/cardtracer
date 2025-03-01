@@ -32,4 +32,54 @@ A Collectable Card value tracking web app.
 4. Open `http://localhost:5173/` in your browser.
 
 
+#
+
+## Steps to Create, Commit, and Push a Branch
+
+1. **Create and switch to a new branch named 'craig':**
+
+   ```sh
+   git checkout -b craig
+   ```
+
+2. **Make changes to your files as needed.**
+
+3. **Stage all changes:**
+
+   ```sh
+   git add .
+   ```
+
+4. **Commit your changes:**
+
+   ```sh
+   git commit -m "Initial commit on craig branch"
+   ```
+
+5. **Push the new branch to GitHub:**
+
+   ```sh
+   git push -u origin craig
+   ```
+
+## Keeping Your Branch Updated
+
+Before working on your branch, pull the latest changes:
+
+```sh
+   git pull origin craig
+```
+
+To pull new updates from the `master` branch into your active `craig` branch:
+
+```sh
+   git checkout craig
+   git pull origin master
+```
+
+This ensures your branch stays up to date with the latest changes from `master`. 🚀
+
+
+
+
 
