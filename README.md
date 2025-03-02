@@ -1,5 +1,5 @@
 # Card Tracer
-A Collectable Card value tracking web app.
+A Collectable Card value tracking web app.  The information below provides some instructions for contributers new to git and node.
 
 
 ## Windows Install Prerequisites
