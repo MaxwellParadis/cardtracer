@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   width: 100;
-  height: 30rem;
+  height: 35rem;
   border: 1px solid black;
 }
 
@@ -33,11 +33,9 @@
 }
 
 .actCard{
-  background-color: rgb(164, 108, 236);
-  width: 30em;
-  font-size: .4em;
-  font-family: Verdana;
-  font-weight: bold;
+  background-color: rgb(223, 223, 223);
+  width: 22em;
+  color: rgb(41, 41, 41);
 }
 
 .psa{
@@ -49,4 +47,3 @@
   flex-grow: 1;
   background-color: lightgreen;
 }
-
