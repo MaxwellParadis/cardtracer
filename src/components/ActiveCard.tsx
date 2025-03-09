@@ -6,11 +6,11 @@ function ActiveCard() {
 
   return (
     <div className='actCard'>
-        <h5>Alakazam #1</h5>
-        <h6>Base Set 2</h6>
-        <img src="src\assets\Alakazam_1.jpg" width="200em" alt="Alakazam Base Set 2 Image"></img>
-        <h5>Ungraded Value:</h5>
-        <h5>$78.54</h5>
+      <h4 className="underline-text">Alakazam #1</h4>
+      <h5>Base Set 2</h5>
+      <img src="src\assets\Alakazam_1.jpg" alt="Alakazam 1"></img>
+      <h4>Ungraded Value:</h4>
+      <h5>$76.87</h5>
     </div>
   )
 }

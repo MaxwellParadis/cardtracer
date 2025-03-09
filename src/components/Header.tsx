@@ -6,7 +6,14 @@ function Header() {
 
   return (
     <div className='header'>
-        Header Menu
+        <ul className='navlinks'>
+          <li>Profit</li>
+          <li>Price History</li>
+          <li>Volume</li>
+          <li>Costs</li>
+          <li>Population</li>
+          <li>Card Info</li>
+        </ul>
     </div>
   )
 }
