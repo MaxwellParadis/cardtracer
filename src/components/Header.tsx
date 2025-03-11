@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='header'>
         <ul className='navlinks'>
-          <li>Profit</li>
+          <li className='navlink-border'>Profit</li>
           <li>Price History</li>
           <li>Volume</li>
           <li>Costs</li>

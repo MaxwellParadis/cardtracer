@@ -3,7 +3,7 @@
   padding: 0;
   text-align: center;
   background-color: lightgrey;
-  font-size: calc(8pt + 2vw);
+  font-size: calc(8pt + 1vw);
 }
 
 .app{
@@ -29,14 +29,14 @@
 }
 
 .header{
-  background-color: rgb(28, 173, 149);
+  background-color: rgb(255, 255, 255);
 }
 
 .actCard{
   background-color: rgb(255, 255, 255);
   width: 14em;
   color: rgb(31, 31, 31);
-  font-size: .5em;
+  font-size: .75em;
   line-height: 2%;
 }
 
@@ -57,23 +57,55 @@ table {
   padding: 0em;
 }
 
-h4 {
-  font-size: .75em;
-}
-
-h5 {
-  font-size: .65em;
-  font-weight: 500;
-}
-
-.underline-text {
-  text-decoration: underline;
-}
-
 .navlinks {
   list-style-type: none;
   display: flex;
-  gap: 4em;
+  justify-content: center;
+  gap: 3em;
   font-size: medium;
   font-weight: 500;
+  color: black;
+}
+
+.navlink-border {
+  border-bottom: 2px solid rgb(31, 31, 31);
+  width: 70px;
+}
+
+.psa-tile {
+  color: rgb(31, 31, 31);
+  line-height: .6em;
+  border: 2px solid black;
+  width: 12em;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgb(124, 124, 124);
+  font-size: 70%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile-categories {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  font-size: .55em;
+  font-weight: 500;
+  color: black;
+}
+
+/* fonts and texts */
+
+.small-text {font-size: .7em}
+
+.bold {font-weight: 500}
+
+h4 {font-size: .75em;}
+
+h5 {font-size: .65em; font-weight: 500;}
+
+.underline-text {
+  text-decoration: underline;
 }
