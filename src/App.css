@@ -51,10 +51,10 @@
 }
 
 table {
-  width: 100%;
-  font-size: 1em;
-  color: purple;
-  padding: 0em;
+  width: 90%;
+  font-size: .5em;
+  color: rgb(31, 31, 31);
+  padding: 2em;
 }
 
 .navlinks {
@@ -72,29 +72,6 @@ table {
   width: 70px;
 }
 
-.psa-tile {
-  color: rgb(31, 31, 31);
-  line-height: .6em;
-  border: 2px solid black;
-  width: 12em;
-  border-radius: 15px;
-  box-shadow: 3px 3px 10px rgb(124, 124, 124);
-  font-size: 70%;
-  width: 20%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tile-categories {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5em;
-  font-size: .55em;
-  font-weight: 500;
-  color: black;
-}
 
 /* fonts and texts */
 
@@ -109,3 +86,5 @@ h5 {font-size: .65em; font-weight: 500;}
 .underline-text {
   text-decoration: underline;
 }
+
+/* STUFF FOR PSA TILE */
