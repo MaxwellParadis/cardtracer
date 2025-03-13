@@ -75,6 +75,7 @@ Before working on your branch, pull the latest changes, if any:
 Also, merge new updates from the `master` branch into your active `craig` branch:
 
 ```sh
+   git fetch origin
    git merge master
 ```
 
@@ -86,7 +87,11 @@ When done working or after completing a significant edit, make sure to add, comm
    git push origin craig
 ```
 
+If when you are merging updates from master into branch craig you may get conficts.  We shouldnt have too much here to worry about and it should be easy enough to go through and decide how the conflicts are handled, maybe prioritizing your work.  If you let me know and have pushed your work to craig, I can always then handle merging from craig into master myself.  Once done as long as you have not made more changes while I was doing this you can simply pull master and make your branch now match master.
 
+```sh
+   git pull origin master
+```
 
 
 
