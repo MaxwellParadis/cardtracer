@@ -50,6 +50,8 @@
 .cardSearch{
   flex-grow: 1;
   background-color: lightgreen;
+  max-height: 60vh;
+  overflow-y: scroll;
 }
 
 table {
