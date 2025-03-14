@@ -8,10 +8,10 @@
 
 .app{
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .horizontal{
@@ -40,6 +40,8 @@
   color: rgb(31, 31, 31);
   font-size: .75em;
   line-height: 2%;
+  margin: .5em;
+  padding: .5em;
 }
 
 .psa{
@@ -50,7 +52,6 @@
 .cardSearch{
   flex-grow: 1;
   background-color: lightgreen;
-  max-height: 70vh;
   overflow-y: scroll;
 }
 
@@ -66,15 +67,16 @@ table {
   display: flex;
   justify-content: center;
   gap: 3em;
-  font-size: medium;
+  font-size: .5em;
   font-weight: 500;
   color: black;
   max-width: 60em;
+  padding: 0;
 }
 
 .navlinks-flex {
   flex-grow: 1;
-  padding: 0 1em;
+  padding: 0 .75em;
   cursor: pointer;
 }
 
