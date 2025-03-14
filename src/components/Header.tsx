@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className='header'>
         <ul className='navlinks'>
-          {menu.map((x:string,i:number) => (<li onClick={()=>handleActive(i)} className={`navlinks-flex ${active == i ? 'navlink-border': ''}`}>{x}</li>))}
+          {menu.map((x:string,i:number) => (<li key={x} onClick={()=>handleActive(i)} className={`navlinks-flex ${active == i ? 'navlink-border': ''}`}>{x}</li>))}
         </ul>
     </div>
   )
