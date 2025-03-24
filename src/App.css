@@ -4,6 +4,7 @@
   text-align: center;
   background-color: lightgrey;
   font-size: calc(8pt + 1vw);
+  color: rgb(31, 31, 31);
 }
 
 .app{
@@ -38,11 +39,6 @@
   color: rgb(31, 31, 31);
   font-size: .75em;
   line-height: 2%;
-}
-
-.psa{
-  flex-grow: 1;
-  background-color: lightblue;
 }
 
 .cardSearch{
@@ -88,3 +84,43 @@ h5 {font-size: .65em; font-weight: 500;}
 }
 
 /* STUFF FOR PSA TILE */
+
+.psa{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:1em;
+  max-width: 500em;
+  margin:4em auto;
+  padding: .1rem;
+}
+
+.card {
+background-color:beige;
+border: .1em solid;
+border-radius:.8em;
+border-color: black;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+width:9em;
+padding:.1em;
+color: black;
+text-align: center;
+}
+
+.card h2 {
+  color: green;
+  font-size: .85em;
+}
+
+.card h3{
+  font-size: .65em;
+  margin-bottom: 1em;
+  color: green;
+}
+
+.card h5{
+  font-weight:400;
+  margin-top: -1.25em;
+  font-size: .5em;
+}
