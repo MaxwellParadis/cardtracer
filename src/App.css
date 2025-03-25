@@ -86,13 +86,12 @@ h5 {font-size: .65em; font-weight: 500;}
 /* STUFF FOR PSA TILE */
 
 .psa{
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap:1em;
   max-width: 500em;
-  margin:4em auto;
+  margin:.5em auto;
   padding: .1rem;
 }
 
@@ -101,8 +100,8 @@ background-color:beige;
 border: .1em solid;
 border-radius:.8em;
 border-color: black;
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-width:9em;
+width: 9em;
+height: fit-content;
 padding:.1em;
 color: black;
 text-align: center;
@@ -119,8 +118,33 @@ text-align: center;
   color: green;
 }
 
-.card h5{
+.card h5 {
   font-weight:400;
   margin-top: -1.25em;
   font-size: .5em;
+}
+
+.card-table {
+  color: red;
+  height: 8em;
+  margin: auto;
+  border-spacing: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+.card-table td{
+  color: black;
+  font-weight: 700;
+  font-size: .85em;
+}
+
+.card-grid {
+  background-color: beige;
+  border: .1em solid black;
+  border-radius: 1.2em;
+  color: blue;
+  width: 20em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
