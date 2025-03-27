@@ -91,56 +91,61 @@ h5 {font-size: .65em; font-weight: 500;}
   flex-wrap: nowrap;
   gap:1em;
   max-width: 500em;
-  margin:.5em auto;
-  padding: .1rem;
+  margin: auto;
+  padding: 1rem;
 }
 
 .card {
-background-color:beige;
+background-color:rgb(255, 255, 255);
 border: .1em solid;
 border-radius:.8em;
 border-color: black;
-width: 9em;
-height: fit-content;
-padding:.1em;
+height: 7em;
 color: black;
-text-align: center;
+align-content: center;
+width: 11em;
 }
 
 .card h2 {
-  color: green;
-  font-size: .85em;
+  margin-top: -1.2em;
+  color: rgb(103, 178, 105);
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .card h3{
+  margin-top: .2em;
+  margin-bottom: 2em;
   font-size: .65em;
-  margin-bottom: 1em;
-  color: green;
+  color: rgb(103, 178, 105);
 }
 
 .card h5 {
+  margin-top: -1.8em;
+  margin-bottom: 2.5em;
   font-weight:400;
-  margin-top: -1.25em;
-  font-size: .5em;
+  font-size: .55em;
 }
 
 .card-table {
-  color: red;
-  height: 8em;
-  margin: auto;
-  border-spacing: 8px;
+  margin-top: -2em;
+  color: rgb(0, 0, 0);
   width: 100%;
-  justify-content: center;
+  border-collapse: collapse;
 }
 
 .card-table td{
-  color: black;
+  color: rgb(103, 178, 105);
   font-weight: 700;
   font-size: .85em;
 }
 
+.card-table th{
+  font-size: .7em;
+}
+
 .card-grid {
-  background-color: beige;
+  background-color: rgb(163, 163, 38);
   border: .1em solid black;
   border-radius: 1.2em;
   color: blue;
