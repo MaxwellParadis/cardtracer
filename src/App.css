@@ -144,12 +144,23 @@ width: 11em;
   font-size: .7em;
 }
 
-.card-grid {
-  background-color: rgb(163, 163, 38);
-  border: .1em solid black;
-  border-radius: 1.2em;
-  color: blue;
-  width: 20em;
+/* TESTIGN STUFF FOR PSA TILE WITH GRID*/
+
+.card-container{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2em 2em 2em;
+  grid-template-rows:3em 3em 3em;
+  background-color:rgb(255, 255, 255);
+  border: .1em solid;
+  border-radius:.8em;
+  border-color: rgb(0, 0, 0);
+  height: 7em;
+  color: black;
+  width: 11em;
+  }
+
+
+
+.card-grid {
+color: rgb(0, 0, 0);
 }
