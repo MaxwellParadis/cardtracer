@@ -53,7 +53,7 @@ A Collectable Card value tracking web app.  The information below provides some 
 4. **Commit your changes:**
 
    ```sh
-   git commit -m "Initial commit on craig branch"
+   git commit -m "<TYPE IN WHATEVER YOU CHANGED HERE>"
    ```
 
 5. **Push the new branch to GitHub:**
@@ -64,20 +64,35 @@ A Collectable Card value tracking web app.  The information below provides some 
 
 ## Keeping Your Branch Updated
 
-Before working on your branch, pull the latest changes:
+These are some regular commands to run before or after each working session.
+
+Before working on your branch, pull the latest changes, if any:
 
 ```sh
    git pull origin craig
 ```
 
-To pull new updates from the `master` branch into your active `craig` branch:
+Also, merge new updates from the `master` branch into your active `craig` branch:
 
 ```sh
-   git checkout craig
-   git pull origin master
+   git fetch origin
+   git merge master
 ```
 
-This ensures your branch stays up to date with the latest changes from `master`. 🚀
+When done working or after completing a significant edit, make sure to add, commit and push after working on your branch:
+
+```sh
+   git add . 
+   git commit -m "YOUR NOTES ABOUT THE UPDATES"
+   git push origin craig
+```
+
+If when you are merging updates from master into branch craig you may get conficts.  We shouldnt have too much here to worry about and it should be easy enough to go through and decide how the conflicts are handled, maybe prioritizing your work.  If you let me know and have pushed your work to craig, I can always then handle merging from craig into master myself.  Once done as long as you have not made more changes while I was doing this you can simply pull master and make your branch now match master.
+
+```sh
+   git fetch origin
+   git pull origin master
+```
 
 
 

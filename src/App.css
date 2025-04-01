@@ -9,10 +9,10 @@
 
 .app{
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .horizontal{
@@ -30,6 +30,8 @@
 }
 
 .header{
+  display: flex;
+  justify-content: center;
   background-color: rgb(255, 255, 255);
 }
 
@@ -39,11 +41,14 @@
   color: rgb(31, 31, 31);
   font-size: .75em;
   line-height: 2%;
+  margin: .5em;
+  padding: .5em;
 }
 
 .cardSearch{
   flex-grow: 1;
   background-color: lightgreen;
+  overflow-y: scroll;
 }
 
 table {
@@ -58,14 +63,21 @@ table {
   display: flex;
   justify-content: center;
   gap: 3em;
-  font-size: medium;
+  font-size: .5em;
   font-weight: 500;
   color: black;
+  max-width: 60em;
+  padding: 0;
+}
+
+.navlinks-flex {
+  flex-grow: 1;
+  padding: 0 .75em;
+  cursor: pointer;
 }
 
 .navlink-border {
   border-bottom: 2px solid rgb(31, 31, 31);
-  width: 70px;
 }
 
 
