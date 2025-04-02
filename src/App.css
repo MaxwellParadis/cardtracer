@@ -101,78 +101,176 @@ h5 {font-size: .65em; font-weight: 500;}
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
-  gap:1em;
+  gap:.75em;
   max-width: 500em;
   margin: auto;
-  padding: 1rem;
 }
 
-.card {
-background-color:rgb(255, 255, 255);
-border: .1em solid;
-border-radius:.8em;
-border-color: black;
-height: 7em;
-color: black;
-align-content: center;
-width: 11em;
-}
-
-.card h2 {
-  margin-top: -1.2em;
-  color: rgb(103, 178, 105);
-  font-size: 1em;
-  font-weight: 700;
-}
-
-.card h3{
-  margin-top: .2em;
-  margin-bottom: 2em;
-  font-size: .65em;
-  color: rgb(103, 178, 105);
-}
-
-.card h5 {
-  margin-top: -1.8em;
-  margin-bottom: 2.5em;
-  font-weight:400;
-  font-size: .55em;
-}
-
-.card-table {
-  margin-top: -2em;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.card-table td{
-  color: rgb(103, 178, 105);
-  font-weight: 700;
-  font-size: .85em;
-}
-
-.card-table th{
-  font-size: .7em;
-}
 
 /* TESTIGN STUFF FOR PSA TILE WITH GRID*/
 
 .card-container{
   display: grid;
-  grid-template-columns: 2em 2em 2em;
-  grid-template-rows:3em 3em 3em;
+  grid-template-columns: 2em 2em 2em 2em;
+  column-gap: 1em;
+  grid-template-rows:1em 1em 1em 1em 1em 1em 1em 1em;
+  row-gap: auto;
   background-color:rgb(255, 255, 255);
   border: .1em solid;
   border-radius:.8em;
   border-color: rgb(0, 0, 0);
-  height: 7em;
+  height: 7.5em;
   color: black;
-  width: 11em;
+  width: 12em;
+  justify-content: center;
   }
 
 
 
 .card-grid {
 color: rgb(0, 0, 0);
+}
+
+.item-1 {
+grid-column-start: 1;
+grid-row-start: 1;
+font-size: .6em;
+font-weight: 500;
+}
+
+.item-2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  font-size: 1.5em;
+  font-weight: 600;
+  align-self: center;
+}
+
+.item-3 {
+  color: rgb(103, 178, 105);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+  color: rgb(103, 178, 105);
+  font-size: .75em;
+  font-weight: 700;
+}
+
+.item-4 {
+  color: rgb(103, 178, 105);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-self: center;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  align-self: center;
+  font-weight: 700;
+}
+
+.item-5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-self: center;
+  align-self: center;
+  grid-row-start: 4;
+  font-size: .55em;
+}
+
+.item-6 {
+  margin-top: .5em;
+  grid-column-start: 1;
+  grid-row-start: 5;
+  align-self: center;
+}
+
+.item-7 {
+  margin-top: .5em;
+  grid-column-start: 2;
+  grid-row-start: 5;
+  align-self: center;
+}
+
+.item-8 {
+  margin-top: .5em;
+  grid-column-start: 3;
+  grid-row-start: 5;
+  align-self: center;
+}
+
+.item-9 {
+  margin-top: .5em;
+  grid-column-start: 4;
+  grid-row-start: 5;
+  align-self: center;
+}
+
+.item-10 {
+  margin-top: -1em;
+  grid-column-start: 1;
+  grid-row-start: 7;
+  font-size: .5em;
+  font-weight: 700;
+  color: rgb(103, 178, 105);
+}
+
+.item-11 {
+  margin-top: -1em;
+  grid-column-start: 2;
+  grid-row-start: 7;
+  font-size: .5em;
+  font-weight: 700;
+  color: rgb(225, 79, 79);
+}
+
+.item-12 {
+  margin-top: -1em;
+  grid-column-start: 3;
+  grid-row-start: 7;
+  font-size: .5em;
+  font-weight: 700;
+  color: rgb(225, 79, 79);
+}
+
+.item-13 {
+  margin-top: -1em;
+  grid-column-start: 4;
+  grid-row-start: 7;
+  font-size: .5em;
+  font-weight: 700;
+  color: rgb(103, 178, 105);
+}
+
+.item-14 {
+  margin-top: -1em;
+  grid-column-start: 1;
+  grid-row-start: 8;
+  font-size: .4em;
+  font-weight: 600;
+}
+
+.item-15 {
+  margin-top: -1em;
+  grid-column-start: 2;
+  grid-row-start: 8;
+  font-size: .4em;
+  font-weight: 600;
+}
+
+.item-16 {
+  margin-top: -1em;
+  grid-column-start: 3;
+  grid-row-start: 8;
+  font-size: .4em;
+  font-weight: 600;
+}
+
+.item-17 {
+  margin-top: -1em;
+  grid-column-start: 4;
+  grid-row-start: 8;
+  font-size: .4em;
+  font-weight: 600;
 }
