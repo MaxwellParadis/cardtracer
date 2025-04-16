@@ -5,6 +5,9 @@ function TilePSA() {
   //const [count, setCount] = useState(0)
 
   return (
+    <>
+    <div className='Purchase-Price-Head'> Purchase Price </div>
+    <div className='Purchase-Price'> <span>$98.43</span> </div>
     <div className='psa'>
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
@@ -87,6 +90,7 @@ function TilePSA() {
         <div className='card-grid item-17'>Liquidity</div>
       </div>
     </div>
+    </> 
   )
 }
 

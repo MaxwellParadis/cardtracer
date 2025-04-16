@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  background-color: lightgrey;
+  background-color: rgb(255, 255, 255);
   font-size: calc(8pt + 1vw);
   color: rgb(31, 31, 31);
 }
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: row;
   width: 100;
-  height: 25rem;
+  height: 30rem;
   border: 1px solid black;
 }
 
@@ -62,22 +62,24 @@ table {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 3em;
+  gap: 2.75em;
   font-size: .5em;
   font-weight: 500;
-  color: black;
+  color: rgb(66, 66, 66);
   max-width: 60em;
   padding: 0;
+  border-bottom: solid 1px black;
 }
 
 .navlinks-flex {
   flex-grow: 1;
-  padding: 0 .75em;
+  padding: 0 .1em;
   cursor: pointer;
 }
 
 .navlink-border {
-  border-bottom: 2px solid rgb(31, 31, 31);
+  color: black;
+  font-weight: 800;
 }
 
 
@@ -274,3 +276,24 @@ font-weight: 500;
   font-size: .4em;
   font-weight: 600;
 }
+
+.Purchase-Price-Head {
+  margin-top: .5em;
+  font-weight: 700;
+  font-size: .75em;
+}
+
+.Purchase-Price span {
+  font-size: .75em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  background-color: lightgray;
+  border-bottom: solid .1em black;
+}
+
+.Purchase-Price {
+  margin-bottom: .5em;
+}
+
