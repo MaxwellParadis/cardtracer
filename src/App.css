@@ -109,7 +109,7 @@ h5 {font-size: .65em; font-weight: 500;}
 }
 
 
-/* TESTIGN STUFF FOR PSA TILE WITH GRID*/
+/*STUFF FOR PSA TILE WITH GRID*/
 
 .card-container{
   display: grid;
@@ -297,3 +297,11 @@ font-weight: 500;
   margin-bottom: .5em;
 }
 
+/*STUFF FOR Search*/
+
+.cardSearch input[type=text] {
+  color: red;
+  border: 1px solid black;
+  background: lightgrey;
+  border-radius: 25%;
+}
