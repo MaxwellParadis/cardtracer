@@ -20,7 +20,8 @@
   flex-direction: row;
   width: 100;
   height: 30rem;
-  border: 1px solid black;
+  border: 2px solid black;
+
 }
 
 .vertical{
@@ -47,7 +48,7 @@
 
 .cardSearch{
   flex-grow: 1;
-  background-color: lightgreen;
+  background-color: rgb(255, 255, 255);
   overflow-y: scroll;
 }
 
@@ -300,8 +301,24 @@ font-weight: 500;
 /*STUFF FOR Search*/
 
 .cardSearch input[type=text] {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-right: 30%;
+  padding-left: 1em;
+  font-size: .5em;
+  padding-top: 2em;
+  box-sizing: border-box;
+}
+
+.cardSearch input[type=text]:focus {
+  color: rgb(0, 0, 0);
+  border: none;
+  background-color: rgb(240, 240, 240);
+  font-weight: 500;
+}
+
+[type=checkbox] {
   color: red;
-  border: 1px solid black;
-  background: lightgrey;
-  border-radius: 25%;
 }

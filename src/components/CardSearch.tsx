@@ -22,6 +22,7 @@ function CardSearch() {
   return (
     <div className='cardSearch'>
       <input type="text" placeholder="Search..."></input>
+      <br></br>
       <table>
         <tbody>
           <tr>
