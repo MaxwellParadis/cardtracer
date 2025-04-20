@@ -21,8 +21,26 @@ function CardSearch() {
 
   return (
     <div className='cardSearch'>
-      <input type="text" placeholder="Search..."></input>
+      <input type="text" placeholder="Search..."></input><button>Search</button>
       <br></br>
+      <ul className='filter-checkbox-container'>
+        <input type="checkbox" id="Language1" name="Language1" value="English"></input>
+        <label htmlFor="Language1">English</label>
+        <input type="checkbox" id="Language2" name="Language2" value="Japanese"></input>
+        <label htmlFor="Language2">Japanese</label>
+        <input type="checkbox" id="Product1" name="Product1" value="Cards"></input>
+        <label htmlFor="Product1">Cards</label>
+        <input type="checkbox" id="Product2" name="Product2" value="Sealed"></input>
+        <label htmlFor="Product2">Sealed</label>
+        <input type="checkbox" id="Binder" name="Binder" value="Binder"></input>
+        <label htmlFor="Binder">Binder</label>
+        <input type="checkbox" id="PSA8" name="PSA8" value="PSA8"></input>
+        <label htmlFor="PSA8">PSA 8 Profit</label>
+        <input type="checkbox" id="PSA9" name="PSA9" value="PSA9"></input>
+        <label htmlFor="PSA9">PSA 9 Profit</label>
+        <input type="checkbox" id="PSA10" name="PSA10" value="PSA10"></input>
+        <label htmlFor="PSA10">PSA 10 Profit</label>
+      </ul>
       <table>
         <tbody>
           <tr>

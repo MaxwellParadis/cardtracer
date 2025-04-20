@@ -7,7 +7,7 @@ function TilePSA() {
   return (
     <>
     <div className='Purchase-Price-Head'> Purchase Price </div>
-    <div className='Purchase-Price'> <span>$98.43</span> </div>
+    <div className='Purchase-Price'><input type="number" placeholder="$45.00"></input></div>
     <div className='psa'>
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
