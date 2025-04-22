@@ -137,6 +137,7 @@ grid-column-start: 1;
 grid-row-start: 1;
 font-size: .6em;
 font-weight: 500;
+color: rgb(73, 73, 73);
 }
 
 .item-2 {
@@ -145,6 +146,7 @@ font-weight: 500;
   font-size: 1.5em;
   font-weight: 600;
   align-self: center;
+  color: rgb(73, 73, 73);
 }
 
 .item-3 {
@@ -318,9 +320,33 @@ font-weight: 500;
 
 .filter-checkbox-container {
   font-size: .45em;
-  margin-bottom: -.5em;
   margin-top: .5em;
   display: inline-flex;
-  gap: .5em;
+  gap: 2.5em;
+  cursor: pointer;
 }
 
+.cardSearch input[type="checkbox"] {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  outline: none;
+  transition: outline 0.1s;
+  color: rgb(145, 145, 145);
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1em;
+  width: 1em;
+  background-color: black;
+}
+
+.filter-checkbox-container:hover input ~ .checkmark {
+  background-color: #b80e0e;
+}
