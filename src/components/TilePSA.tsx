@@ -8,6 +8,7 @@ function TilePSA() {
     <>
     <div className='Purchase-Price-Head'> Purchase Price </div>
     <div className='Purchase-Price'><input type="number" placeholder="$45.00"></input></div>
+    <div className="Ungraded">Ungraded: $76.88 </div>
     <div className='psa'>
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
@@ -27,6 +28,7 @@ function TilePSA() {
         <div className='card-grid item-15'>Population</div>
         <div className='card-grid item-16'>Volatility</div>
         <div className='card-grid item-17'>Liquidity</div>
+        <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
       
 
@@ -48,6 +50,7 @@ function TilePSA() {
         <div className='card-grid item-15'>Population</div>
         <div className='card-grid item-16'>Volatility</div>
         <div className='card-grid item-17'>Liquidity</div>
+        <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
       
       <div className='card-container'>
@@ -68,6 +71,7 @@ function TilePSA() {
         <div className='card-grid item-15'>Population</div>
         <div className='card-grid item-16'>Volatility</div>
         <div className='card-grid item-17'>Liquidity</div>
+        <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
       
       <div className='card-container'>
@@ -88,6 +92,7 @@ function TilePSA() {
         <div className='card-grid item-15'>Population</div>
         <div className='card-grid item-16'>Volatility</div>
         <div className='card-grid item-17'>Liquidity</div>
+        <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
     </div>
     </> 

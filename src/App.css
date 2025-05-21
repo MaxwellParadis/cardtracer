@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: row;
   width: 100;
-  height: 30rem;
-  border-bottom: 2px solid black;
+  height: 75rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .vertical{
@@ -37,22 +37,28 @@
 
 .actCard{
   background-color: rgb(255, 255, 255);
-  width: 14em;
+  width: 11em;
   color: rgb(31, 31, 31);
   font-size: .75em;
   line-height: 2%;
   margin: .5em;
   padding: .5em;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.logo{
+  margin-top: .5em;
 }
 
 .cardSearch{
   flex-grow: 1;
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   overflow-y: scroll;
 }
 
 table {
-  width: 90%;
+  width: 100%;
   font-size: .5em;
   color: rgb(31, 31, 31);
   padding: 2em;
@@ -65,7 +71,7 @@ table {
   gap: 2.75em;
   font-size: .5em;
   font-weight: 500;
-  color: rgb(66, 66, 66);
+  color: #000000;
   max-width: 60em;
   padding: 0;
   border-bottom: solid 1px black;
@@ -120,13 +126,17 @@ h5 {font-size: .65em; font-weight: 500;}
   background-color:rgb(255, 255, 255);
   border-radius:.8em;
   height: 7.5em;
-  color: black;
+  color: rgb(0, 0, 0);
   width: 12em;
   justify-content: center;
   box-shadow: 5px 8px 7px #858585;
   }
 
-
+.Ungraded {
+font-size: .5em;
+font-weight: 600;
+margin-top: -.3em;
+}
 
 .card-grid {
 color: rgb(0, 0, 0);
@@ -274,6 +284,14 @@ color: rgb(73, 73, 73);
   margin-top: -1em;
   grid-column-start: 4;
   grid-row-start: 8;
+  font-size: .4em;
+  font-weight: 600;
+}
+
+.item-18 {
+  margin-top: -1em;
+  grid-column-start: 4;
+  grid-row-start: 2;
   font-size: .4em;
   font-weight: 600;
 }
