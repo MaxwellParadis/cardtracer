@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import '../App.css'
 
-function TilePSA() {
+export function TilePSA() {
   //const [count, setCount] = useState(0)
 
   return (
@@ -30,7 +30,7 @@ function TilePSA() {
         <div className='card-grid item-17'>Liquidity</div>
         <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
-      
+
 
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
@@ -52,7 +52,7 @@ function TilePSA() {
         <div className='card-grid item-17'>Liquidity</div>
         <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
-      
+
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
         <div className='card-grid item-2'>9</div>
@@ -73,7 +73,7 @@ function TilePSA() {
         <div className='card-grid item-17'>Liquidity</div>
         <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
-      
+
       <div className='card-container'>
         <div className='card-grid item-1'>PSA</div>
         <div className='card-grid item-2'>10</div>
@@ -95,7 +95,7 @@ function TilePSA() {
         <div className='card-grid item-18'><img src='src\assets\Add symbol.png' width="25"></img></div>
       </div>
     </div>
-    </> 
+    </>
   )
 }
 

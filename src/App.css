@@ -18,7 +18,7 @@
 .horizontal{
   display: flex;
   flex-direction: row;
-  width: 100;
+  width: 100%;
   height: 75rem;
   border-bottom: 2px solid rgb(0, 0, 0);
 }
@@ -26,7 +26,7 @@
 .vertical{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 80vw;
 }
 
 .header{
@@ -49,12 +49,14 @@
 
 .logo{
   margin-top: .5em;
+  max-width: 20vw;
 }
 
 .cardSearch{
   flex-grow: 1;
   background-color: #f0f0f0;
   overflow-y: scroll;
+  min-height: 20em;
 }
 
 table {
@@ -110,8 +112,13 @@ h5 {font-size: .65em; font-weight: 500;}
   justify-content: space-around;
   flex-wrap: nowrap;
   gap:.75em;
-  max-width: 500em;
-  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  margin: 2em;
+  padding: 1em;
+  scroll-padding: 10em;
 }
 
 
@@ -123,7 +130,7 @@ h5 {font-size: .65em; font-weight: 500;}
   column-gap: 1em;
   grid-template-rows:1em 1em 1em 1em 1em 1em 1em 1em;
   row-gap: auto;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(240, 240, 240);
   border-radius:.8em;
   height: 7.5em;
   color: rgb(0, 0, 0);

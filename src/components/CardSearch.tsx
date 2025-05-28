@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import '../App.css'
 
-function CardSearch() {
+export function CardSearch() {
   //const [count, setCount] = useState(0)
 
   const defCard = {
@@ -69,9 +69,9 @@ function CardSearch() {
             <th>PSA 10 Value</th>
             <th>PSA 8 Profit</th>
             <th>PSA 9 Profit</th>
-            <th>PSA 10 Profit</th>   
+            <th>PSA 10 Profit</th>
           </tr>
-          {cardSelection.length > 0 ? cardSelection.map((x:any, i:number) =>
+          {cardSelection.length > 0 ? cardSelection.map((x, i) =>
             <tr key={i} >
               <td>
                 <img src="src\assets\Alakazam_1.jpg" alt="Alakazam 1" width='75em'></img>
@@ -88,7 +88,7 @@ function CardSearch() {
             </tr>
           ) : null}
         </tbody>
-      </table> 
+      </table>
     </div>
   )
 }

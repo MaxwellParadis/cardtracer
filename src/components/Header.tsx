@@ -1,22 +1,24 @@
-import { useState } from 'react'
+//import { useState, useContext } from 'react'
 import '../App.css'
+import { useCardContext } from './context'
 
-function Header() {
-  const [active, setActive] = useState(0);
+export function Header() {
+  //const [active, setActive] = useState(0);
+  const { menu, setMenu } = useCardContext();
 
-  const handleActive = (i:number) => {
-    setActive(i)
+  const handleMenu = (i:number) => {
+    setMenu(i)
   }
 
-  const menu = ['Profit', 'Price History', 'Volume', 'Costs', 'Population', 'Card Info'];
+  const menuList = ['Profit', 'Price History', 'Volume', 'Costs', 'Population', 'Card Info'];
 
   return (
     <div className='header'>
         <ul className='navlinks'>
-          {menu.map((x:string,i:number) => (<li key={x} onClick={()=>handleActive(i)} className={`navlinks-flex ${active == i ? 'navlink-border': ''}`}>{x}</li>))}
+          {menuList.map((x:string,i:number) => (<li key={x} onClick={()=>handleMenu(i)} className={`navlinks-flex ${menu == i ? 'navlink-border': ''}`}>{x}</li>))}
         </ul>
     </div>
   )
 }
 
-export default Header
+export default Header;
